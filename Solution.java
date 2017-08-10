@@ -47,8 +47,10 @@ class Solution {
         {
             System.out.println("No Food");
         }
-        else System.out.println(rate);
-    }
+        else {
+            System.out.println(rate);
+            a.remove(a.size() - 1);
+    }}
     if(q == 2)
     {
         int value = scan.nextInt();
